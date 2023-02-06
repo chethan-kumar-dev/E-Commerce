@@ -1,0 +1,43 @@
+.cart-products-container{
+    margin: 0 auto;
+    max-width: 1000px;
+   
+}
+.cart-products{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(200px,1fr));
+    gap: 1em;
+    position: relative;
+    padding: 1em;
+    margin: 0 auto;
+}
+.count-handle{
+    display: flex;
+    gap: 1em;
+}
+.count-handle button{
+    background-color: rgb(8, 8, 51);
+    padding: 0.5em;
+    color: white;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.cart-product{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    background-color: rgb(208, 255, 239);
+    justify-content: center;
+    align-items: center;
+}
+.proceed-button{
+    bottom: 0px;
+    background-color: rgb(13, 13, 51);
+    color: white;
+    border: none;
+    outline: none;
+    padding: 0.7em;
+    cursor: pointer;
+}

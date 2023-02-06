@@ -1,0 +1,39 @@
+.items-container{
+    display: flex;
+    position: fixed;
+    top: 0px;
+    background-color: rgba(0, 0, 0, 0.747);
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    left: 0px;
+}
+.items{
+    background-color: white;
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    width: 400px;
+}
+.item{
+    display: flex;
+    gap: 1em;
+}
+.confirm-order-button{
+    background-color: rgb(19, 19, 54);
+    color: white;
+    padding: 0.7em;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+.close-modal-cross{
+    position: absolute;
+    top: 50px;
+    right: 50px;
+    color: white;
+    font-size: 30px;
+    cursor: pointer;
+}
